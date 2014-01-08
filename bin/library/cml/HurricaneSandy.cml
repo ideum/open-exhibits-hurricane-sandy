@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml css="library/css/my_styles_modules.css">
+
+	<LibraryKit>
+		<Library type="swf" src="library/swfs/openexhibits_assets.swf" />	
+	</LibraryKit>
+
+	<LayoutKit>
+		<Layout id="layout0" classRef="RandomLayout" type="randomXYRotation" minX="200" maxX="1080" minY="200" maxY="520" minRot="0" maxRot="20"/>
+	</LayoutKit>
+    
+	<CollectionViewer id="collection" layout="layout0" amountToShow="3" autoShuffle="true" mouseChildren="true" animateIn="true">
+		
+		<Include cml="library/cml/Atlantic_City_1.cml"/>
+		<Include cml="library/cml/Brick_Township_1.cml"/>
+		<Include cml="library/cml/Gillians_Island_Water_Park_1.cml"/>
+		<Include cml="library/cml/Gillians_Wonderland_Pier_1.cml"/>
+		<Include cml="library/cml/Longport_Coastline_1.cml"/>
+		<Include cml="library/cml/Longport_Coastline_2.cml"/>
+		<Include cml="library/cml/Longport_Coastline_3.cml"/>
+		<Include cml="library/cml/Mantoloking_1.cml"/>
+		<Include cml="library/cml/Mantoloking_2.cml"/>
+		<Include cml="library/cml/Near_Brielle_1.cml"/>
+		<Include cml="library/cml/Ocean_City_1.cml"/>
+		<Include cml="library/cml/Ocean_City_coast_1.cml"/>
+		<Include cml="library/cml/Playlands_Castaway_Cove_1.cml"/>
+		
+	</CollectionViewer>
+
+	
+	
+</cml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml 
+	gml="library/gml/my_gestures.gml" 
+	css="library/css/my_styles_modules.css" 
+	simulator="false">
+	
+	<LibraryKit>
+		<Library type="swf" src="library/swfs/openexhibits_assets.swf" />	
+	</LibraryKit>
+	
+	<MaskImageViewer id="maskviewer1" x="200" y="50" rotation="-10" class="touch_container" nestedTransform="true" mouseChildren="true" gestureEvents="true" disableNativeTransform="false" disableAffineTransform="false">
+		
+			<TouchContainer id="frame-c" class="frame_container" visible="true" targetParent="true" mouseChildren="false">
+				<Frame id="frame-e" class="frame_element"/>
+			</TouchContainer>
+	
+			<TouchContainer id="t" class="base_img" dimensionsTo="image" mouseChildren="false">	
+				<Image id="image" x="0" y="0"  src="library/assets/Atlantic_City_1_b.jpg"/>
+			</TouchContainer>
+			
+		<MaskContainer maskShape="rectangle" maskWidth="250" maskHeight="200" maskBorderColor="0xff0000" maskBorderStroke="4" maskBorderAlpha="0.75" mouseChildren="false">	
+			<Image id="image2" x="0" y="0" visible="false"  src="library/assets/Atlantic_City_1_a.jpg"/>
+			
+			<GestureList>
+				<Gesture ref="n-double_tap" gestureOn="true"/>
+				<Gesture ref="n-drag" gestureOn="true"/>
+				<Gesture ref="n-scale" gestureOn="true"/>
+				<Gesture ref="n-rotate" gestureOn="true"/>
+			</GestureList>
+		</MaskContainer>
+			
+			<TouchContainer id="img1-info" class="info_container" visible="false" targetParent="true" mouseChildren="false" >
+				<Graphic id="info-bg" class="info_bg" shape="rectangle"/>		
+				<Text class="info_title" selectable="false" border="false" textSize="38" text="Atlantic City, New Jersey"/>				
+				<Text id="description" class="info_description" selectable="false" border="false" text="Before and after Hurricane Sandy, 2012."/>		
+			</TouchContainer>
+		
+			<Menu id="menu-1" class="menu_container" x="0" y="0" alpha="0.6" position="bottomRight" paddingLeft="0" paddingBottom="-50" paddingRight="20" autoHide="true" visible="false">
+				<Include cml="library/cml/buttons/infoButton.cml"/>
+				<Include cml="library/cml/buttons/closeButton.cml"/>
+			</Menu>
+			
+			<GestureList>
+				<Gesture ref="n-manipulate-inertia-boundary" gestureOn="true"/>
+			</GestureList>
+		
+	</MaskImageViewer>
+  
+	
+	
+</cml>
