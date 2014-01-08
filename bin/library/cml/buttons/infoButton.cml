@@ -1,7 +1,7 @@
 <cml>
 
 <LibraryKit>
-	<Library type="swf" src="library/assets/swfs/openexhibits_assets.swf" />	
+	<Library type="swf" src="library/swfs/openexhibits_assets.swf" />	
 </LibraryKit>
 
 <Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">

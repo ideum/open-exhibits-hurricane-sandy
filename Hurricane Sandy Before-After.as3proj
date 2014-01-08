@@ -4,28 +4,29 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\20121105HurricaneSandyBeforeAfter.swf" />
+    <movie path="bin\HurricaneSandyBeforeAfter.swf" />
     <movie fps="30" />
     <movie width="800" />
     <movie height="600" />
-    <movie version="10" />
-    <movie minorVersion="1" />
+    <movie version="11" />
+    <movie minorVersion="7" />
     <movie platform="Flash Player" />
     <movie background="#FFFFFF" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src" />
-    <class path="..\..\cml_core" />
-    <class path="..\..\gml_core" />
-    <class path="..\..\lib" />
+    <class path="..\gestureworks-flash-cml" />
+    <class path="..\gestureworks-flash-gml" />
   </classpaths>
   <!-- Build options -->
   <build>
     <option accessible="False" />
+    <option advancedTelemetry="False" />
     <option allowSourcePathOverlap="False" />
     <option benchmark="False" />
     <option es="False" />
+    <option inline="False" />
     <option locale="" />
     <option loadConfig="" />
     <option optimize="True" />
@@ -55,6 +56,9 @@
   <libraryPaths>
     <element path="..\..\lib\cml_ext.swc" />
     <element path="..\..\lib\gml_ext.swc" />
+    <element path="..\gestureworks-flash-cml\lib\cml_ext.swc" />
+    <element path="..\gestureworks-flash-cml\lib\gui.swc" />
+    <element path="..\gestureworks-flash-gml\lib\gml_ext.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
@@ -78,7 +82,7 @@
   </compileTargets>
   <!-- Paths to exclude from the Project Explorer tree -->
   <hiddenPaths>
-    <!-- example: <hidden path="..." /> -->
+    <hidden path="obj" />
   </hiddenPaths>
   <!-- Executed before build -->
   <preBuildCommand />
@@ -88,7 +92,11 @@
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Default" />
+    <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
-  <storage />
+  <storage>
+    <entry key="at_enabled"><![CDATA[0]]></entry>
+    <entry key="at_password"><![CDATA[AT]]></entry>
+  </storage>
 </project>
