@@ -9,7 +9,7 @@ The Collection Viewer places three, large images on stage, and lets users close 
 
 This exhibit includes customizable CML, which contains location information for each of the 13 sets of satellite photographs, and can be edited to have more or less information. The folder contains an .EXE projector and .SWF files ready to be run right away.
 
-If have questions about this software, check the Open Exhibits [Software Support Forum](https://github.com/facebook/react/wiki/Sites-Using-React) to submit inquiries to, and find answers from OE community members.
+If have questions about this software, check the Open Exhibits [Software Support Forum](http://openexhibits.org/community/groups/oe-software-support/forum/) to submit inquiries to, and find answers from OE community members.
 
 SUPPORTED OPERATING SYSTEMS<br>
 Windows 7<br>
