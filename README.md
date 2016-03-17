@@ -1,7 +1,7 @@
 open-exhibits-hurricane-sandy
 =============================
 
-Open Exhibits - Hurricane Sandy Exhibit Template
+Open Exhibits - Hurricane Sandy <em>Before & After</em> Exhibit Template
 
 View the devastation of Hurricane Sandy through satellite pictures taken by NOAA and Google of before and after. The Open Exhibits 2.5 Mask Image Viewer allows a user to explore New Jersey locations by interactively dragging a mask around, as well as resize and rotate it to look at how Hurricane Sandy changed the coastline, destroyed buildings, and flooded streets.
 
